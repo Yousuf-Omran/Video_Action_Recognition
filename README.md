@@ -4,7 +4,7 @@
 
 # Video_Action_Recognition 🧐#️⃣
 
-#### Enable machines to understand and classify activities performed by individuals through the analysis of data acquired from various sensors.
+#### Enable machines to understand and classify activities performed by individuals by analyzing data acquired from various sensors.
 ## Challenges 🔥
 
 #### “ The main challenge is how to deal with spatial and temporal information extracted from the video ”
@@ -14,7 +14,7 @@
 ### Data Review 📝
 The dataset used was UCF11 (exists in "Dataset_Link_to_Website" above) categorized into 11 classes, each class has approximately 100 videos with 30FPS for each video, and the average video duration ranges from 2 to 7 seconds.
 
-I select just 4 classes for training which are:
+I selected just 4 classes for training which are:
   
     1) volleyball spiking
 
@@ -26,7 +26,7 @@ I select just 4 classes for training which are:
 you can notice that the jumping action exists in almost all videos in selected classes, which makes it challenging to evaluate the model performance.
 
 ### References Method 📄
-I performed “CNN with LSTM” method which is based on:
+I performed the “CNN with LSTM” method which is based on the following:
 
     a- The “Long-term Recurrent Convolutional Networks for Visual Recognition and Description” paper https://arxiv.org/abs/1411.4389.
 
@@ -53,10 +53,10 @@ I performed “CNN with LSTM” method which is based on:
 
 -  Then after flattening, I passed the extracted information to the many-to-one LSTM layer to handle sequence data.
 
--  By the “SoftMax” activation function, the video action recognition task is performed.
+-  The video action recognition task is performed by the “SoftMax” activation function.
 
 ## Model visualization: 🎨
-"Image here"
+![frames_for_word](https://github.com/Yousuf-Omran/Video_Action_Recognition/assets/134161427/66606d21-4ee4-4d3c-9af5-796994ef7612)
 
 ## Results 📈
 The evaluation metrics results from the model are:
@@ -67,8 +67,9 @@ The evaluation metrics results from the model are:
     4) Average Recall = 0.98%
     5) Average F1-Score = 0.98%
 
-The accuracy and loss graph for the training and validation set exhbibted below:
-"IMAGE HERE"
+The accuracy and loss graph for the training and validation set exhibited below:
+![image](https://github.com/Yousuf-Omran/Video_Action_Recognition/assets/134161427/8c2c84da-1961-4a2c-907a-44c6826396da)
+![image](https://github.com/Yousuf-Omran/Video_Action_Recognition/assets/134161427/27c6b37d-9ffb-402a-8d8c-785fd73b879e)
 
 ## Limitation & Suggested Solution ➖➕
 - #### Number of Frames:
