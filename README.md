@@ -1,5 +1,5 @@
 
-![Logo](https://images.fineartamerica.com/images/artworkimages/mediumlarge/3/stand-with-palestine-tinh-tran-le-thanh.jpg)
+![image](https://github.com/Yousuf-Omran/Video_Action_Recognition/assets/134161427/165ba1ee-1a3a-44ac-b213-bdfa8c9ad5ab)
 
 
 # Video_Action_Recognition 🧐#️⃣
